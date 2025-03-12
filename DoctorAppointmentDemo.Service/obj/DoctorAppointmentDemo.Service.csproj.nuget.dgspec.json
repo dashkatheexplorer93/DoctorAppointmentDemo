@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/DoctorAppointmentDemo.Service.csproj": {}
+  },
+  "projects": {
+    "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/DoctorAppointmentDemo.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/DoctorAppointmentDemo.Data.csproj",
+        "projectName": "DoctorAppointmentDemo.Data",
+        "projectPath": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/DoctorAppointmentDemo.Data.csproj",
+        "packagesPath": "/Users/dariababkova/.nuget/packages/",
+        "outputPath": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dariababkova/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "http://nuget.jooble.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/DoctorAppointmentDemo.Domain.csproj": {
+                "projectPath": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/DoctorAppointmentDemo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/DoctorAppointmentDemo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/DoctorAppointmentDemo.Domain.csproj",
+        "projectName": "DoctorAppointmentDemo.Domain",
+        "projectPath": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/DoctorAppointmentDemo.Domain.csproj",
+        "packagesPath": "/Users/dariababkova/.nuget/packages/",
+        "outputPath": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dariababkova/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "http://nuget.jooble.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/DoctorAppointmentDemo.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/DoctorAppointmentDemo.Service.csproj",
+        "projectName": "DoctorAppointmentDemo.Service",
+        "projectPath": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/DoctorAppointmentDemo.Service.csproj",
+        "packagesPath": "/Users/dariababkova/.nuget/packages/",
+        "outputPath": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dariababkova/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "http://nuget.jooble.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/DoctorAppointmentDemo.Data.csproj": {
+                "projectPath": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/DoctorAppointmentDemo.Data.csproj"
+              },
+              "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/DoctorAppointmentDemo.Domain.csproj": {
+                "projectPath": "/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/DoctorAppointmentDemo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
