@@ -12,7 +12,7 @@ public class DoctorRepository : GenericRepository<Doctor>, IDoctorRepository
 
     public DoctorRepository()
     {
-        dynamic result = ReadFromAppSettings();
+        var result = ReadFromAppSettings();
 
         Path = result.Database.Doctors.Path;
         LastId = result.Database.Doctors.LastId;
@@ -30,7 +30,7 @@ public class DoctorRepository : GenericRepository<Doctor>, IDoctorRepository
 
     protected override void SaveLastId()
     {
-        dynamic result = ReadFromAppSettings();
+        var result = ReadFromAppSettings();
         result.Database.Doctors.LastId = LastId;
 
         File.WriteAllText(Constants.AppSettingsPath, result.ToString());
