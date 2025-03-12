@@ -10,7 +10,7 @@ public class AppointmentRepository : GenericRepository<Appointment>
 
     public AppointmentRepository()
     {
-        dynamic result = ReadFromAppSettings();
+        var result = ReadFromAppSettings();
 
         Path = result.Database.Appointments.Path;
         LastId = result.Database.Appointments.LastId;
@@ -28,7 +28,7 @@ public class AppointmentRepository : GenericRepository<Appointment>
 
     protected override void SaveLastId()
     {
-        dynamic result = ReadFromAppSettings();
+        var result = ReadFromAppSettings();
         result.Database.Doctors.LastId = LastId;
 
         File.WriteAllText(Constants.AppSettingsPath, result.ToString());
