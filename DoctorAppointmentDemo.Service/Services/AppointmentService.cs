@@ -9,9 +9,9 @@ public class AppointmentService : IAppointmentService
 {
     private readonly IGenericRepository<Appointment> _appointmentRepository;
 
-    public AppointmentService()
+    public AppointmentService(ISerializationService serializationService)
     {
-        _appointmentRepository = new AppointmentRepository();
+        _appointmentRepository = new AppointmentRepository(serializationService);
     }
 
     public Appointment Create(Appointment appointment)

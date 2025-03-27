@@ -9,9 +9,9 @@ public class PatientService : IPatientService
 {
     private readonly IGenericRepository<Patient> _patientRepository;
 
-    public PatientService()
+    public PatientService(ISerializationService serializationService)
     {
-        _patientRepository = new PatientRepository();
+        _patientRepository = new PatientRepository(serializationService);
     }
 
     public Patient Create(Patient patient)

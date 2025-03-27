@@ -9,9 +9,9 @@ public class DoctorService : IDoctorService
 {
     private readonly IDoctorRepository _doctorRepository;
 
-    public DoctorService()
+    public DoctorService(ISerializationService serializationService)
     {
-        _doctorRepository = new DoctorRepository();
+        _doctorRepository = new DoctorRepository(serializationService);
     }
 
     public Doctor Create(Doctor doctor)

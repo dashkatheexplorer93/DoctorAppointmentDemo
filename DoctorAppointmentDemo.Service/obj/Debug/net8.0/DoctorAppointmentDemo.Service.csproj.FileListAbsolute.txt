@@ -33,3 +33,4 @@ C:/Users/admin/source/repos/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/
 /Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.pdb
 /Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/obj/Debug/net8.0/ref/DoctorAppointmentDemo.Service.dll
 /Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/bin/Debug/net8.0/Configuration/appsettings.json
+/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.sourcelink.json

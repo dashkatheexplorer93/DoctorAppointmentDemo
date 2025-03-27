@@ -7,22 +7,128 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78e8c7b6-3541-4795-9738-5234dc2c1b91" name="Changes" comment="" />
+    <list default="true" id="78e8c7b6-3541-4795-9738-5234dc2c1b91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Configuration/appsettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Interfaces/ISerializationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/MockedDatabase/appointments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/MockedDatabase/doctors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/MockedDatabase/patients.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/Services/JsonDataSerializerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/Services/XmlDataSerializerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/Enums/SerializationTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/SerializationTypeChooser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DoctorAppointmentDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoctorAppointmentDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Configuration/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Configuration/Constants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/AppointmentRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/AppointmentRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/DoctorRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/DoctorRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/GenericRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/PatientRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/PatientRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/bin/Debug/net8.0/DoctorAppointmentDemo.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/bin/Debug/net8.0/DoctorAppointmentDemo.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/bin/Debug/net8.0/DoctorAppointmentDemo.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/bin/Debug/net8.0/DoctorAppointmentDemo.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/ref/DoctorAppointmentDemo.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/ref/DoctorAppointmentDemo.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/refint/DoctorAppointmentDemo.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/obj/Debug/net8.0/refint/DoctorAppointmentDemo.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/ref/DoctorAppointmentDemo.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/ref/DoctorAppointmentDemo.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/refint/DoctorAppointmentDemo.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/refint/DoctorAppointmentDemo.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/Services/AppointmentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/Services/AppointmentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/Services/DoctorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/Services/DoctorService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/Services/PatientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/Services/PatientService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/bin/Debug/net8.0/DoctorAppointmentDemo.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/DoctorAppointmentDemo.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/ref/DoctorAppointmentDemo.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/ref/DoctorAppointmentDemo.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/refint/DoctorAppointmentDemo.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.Service/obj/Debug/net8.0/refint/DoctorAppointmentDemo.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/bin/Debug/net8.0/DoctorAppointmentDemo.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/ref/DoctorAppointmentDemo.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/ref/DoctorAppointmentDemo.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/refint/DoctorAppointmentDemo.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.UI/obj/Debug/net8.0/refint/DoctorAppointmentDemo.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoctorAppointmentDemo.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/DoctorAppointmentDemo.sln.DotSettings.user" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DpaMonitoringSettings">
-    <option name="autoShow" value="false" />
+    <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dashkatheexplorer93&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dashkatheexplorer93/DoctorAppointmentDemo.git&quot;,
+    &quot;accountId&quot;: &quot;99c191a0-95d0-4ba9-937a-0c0cd8847426&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7f3c1ff8fa2f7887b45b992c66ccc54fa48ea9d9de4386ba6fb5adbd0249f7e/File.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ba8425f731cdce9dcff522619318acca1613ff8911ca06933b8e3f1f7e4a4/Path.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/Configuration/Constants.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/Repositories/AppointmentRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/Repositories/DoctorRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/Repositories/GenericRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/Repositories/PatientRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/Services/AppointmentService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/Services/DoctorService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Service/Services/PatientService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.UI/Menu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.UI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.UI/obj/Debug/net8.0/DoctorAppointmentDemo.UI.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2u5ShNPkgEkn5VJyFI2jQmLTd3U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +137,8 @@
   &quot;keyToString&quot;: {
     &quot;.NET Project.DoctorAppointmentDemo.UI.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -72,33 +180,57 @@
       <workItem from="1741635825024" duration="184000" />
       <workItem from="1741636013588" duration="4060000" />
       <workItem from="1741676307523" duration="4885000" />
+      <workItem from="1741767364709" duration="3865000" />
+      <workItem from="1741895292554" duration="71000" />
+      <workItem from="1742151014881" duration="1223000" />
+      <workItem from="1742236862452" duration="218000" />
+      <workItem from="1742238517395" duration="113000" />
+      <workItem from="1742851481285" duration="1649000" />
+      <workItem from="1742977112045" duration="3676000" />
+      <workItem from="1742982146584" duration="96000" />
+      <workItem from="1742987287062" duration="5887000" />
+      <workItem from="1742999219867" duration="5373000" />
+      <workItem from="1743010216348" duration="595000" />
+      <workItem from="1743092526207" duration="1033000" />
     </task>
+    <task id="LOCAL-00001" summary="add DoctorAppointmentDemo repo to GitHub and make HW 5">
+      <option name="closed" value="true" />
+      <created>1741769731530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741769731530</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add DoctorAppointmentDemo repo to GitHub and make HW 5">
+      <option name="closed" value="true" />
+      <created>1741770833654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741770833654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/GenericRepository.cs</url>
-          <line>43</line>
-          <properties documentPath="$PROJECT_DIR$/DoctorAppointmentDemo.Data/Repositories/GenericRepository.cs" containingFunctionPresentation="Method 'GetAll'">
-            <startOffsets>
-              <option value="1240" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1276" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add DoctorAppointmentDemo repo to GitHub and make HW 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DoctorAppointmentDemo repo to GitHub and make HW 5" />
   </component>
 </project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Database>
+    <Doctors>
+      <Path>C:\Users\admin\source\repos\DoctorAppointmentDemo\DoctorAppointmentDemo.Data\MockedDatabase\doctors.json</Path>
+      <LastId>6</LastId>
+    </Doctors>
+    <Patients>
+      <Path>C:\Users\admin\source\repos\DoctorAppointmentDemo\DoctorAppointmentDemo.Data\MockedDatabase\patients.json</Path>
+      <LastId>0</LastId>
+    </Patients>
+    <Appointments>
+      <Path>C:\Users\admin\source\repos\DoctorAppointmentDemo\DoctorAppointmentDemo.Data\MockedDatabase\appointments.json</Path>
+      <LastId>0</LastId>
+    </Appointments>
+  </Database>
+</AppSettings>

@@ -29,3 +29,4 @@ C:/Users/admin/source/repos/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/obj
 /Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.pdb
 /Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/obj/Debug/net8.0/ref/DoctorAppointmentDemo.Data.dll
 /Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/bin/Debug/net8.0/Configuration/appsettings.json
+/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Data/obj/Debug/net8.0/DoctorAppointmentDemo.Data.sourcelink.json

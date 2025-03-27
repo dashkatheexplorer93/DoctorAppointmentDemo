@@ -1,13 +1,19 @@
+using DoctorAppointmentDemo.Data.Interfaces;
 using DoctorAppointmentDemo.Domain.Entities;
 using DoctorAppointmentDemo.Domain.Enums;
-using DoctorAppointmentDemo.Service.Interfaces;
 using DoctorAppointmentDemo.Service.Services;
+using DoctorAppointmentDemo.UI.Enums;
 
 namespace DoctorAppointmentDemo.UI;
 
 public class Menu
 {
-    private readonly IDoctorService _doctorService = new DoctorService();
+    private readonly DoctorService _doctorService;
+
+    public Menu(ISerializationService serializationService)
+    {
+        _doctorService = new DoctorService(serializationService);
+    }
 
     public void Launch()
     {
@@ -26,13 +32,13 @@ public class Menu
 
             switch (choice)
             {
-                case 1:
+                case (int)MenuOptions.ShowDoctorsList:
                     ShowDoctorsList();
                     break;
-                case 2:
+                case (int)MenuOptions.AddDoctor:
                     AddDoctor();
                     break;
-                case 3:
+                case (int)MenuOptions.Exit:
                     Console.WriteLine("Take care of yourself, bye!");
                     return;
                 default:

@@ -4,7 +4,10 @@ public static class Program
 {
     public static void Main()
     {
-        var menu = new Menu();
+        Console.WriteLine("Hello and Welcome to the Doctor Appointment System!");
+        
+        var serializationService = SerializationTypeChooser.ChooseSerializationType();
+        var menu = new Menu(serializationService);
         menu.Launch();
     }
 }

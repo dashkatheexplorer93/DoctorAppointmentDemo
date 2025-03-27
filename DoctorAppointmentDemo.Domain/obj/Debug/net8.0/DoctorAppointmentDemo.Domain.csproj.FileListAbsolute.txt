@@ -20,3 +20,4 @@ C:/Users/admin/source/repos/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/o
 /Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/refint/DoctorAppointmentDemo.Domain.dll
 /Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.pdb
 /Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/ref/DoctorAppointmentDemo.Domain.dll
+/Users/dariababkova/RiderProjects/DoctorAppointmentDemo/DoctorAppointmentDemo.Domain/obj/Debug/net8.0/DoctorAppointmentDemo.Domain.sourcelink.json

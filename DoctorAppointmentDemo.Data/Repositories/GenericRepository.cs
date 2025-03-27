@@ -10,13 +10,20 @@ public abstract class GenericRepository<TSource> : IGenericRepository<TSource> w
     public abstract string Path { get; set; }
 
     public abstract int LastId { get; set; }
-
+    
+    private readonly ISerializationService _serializationService;
+    
+    public GenericRepository(ISerializationService serializationService)
+    {
+        _serializationService = serializationService;
+    }
+    
     public TSource Create(TSource source)
     {
         source.Id = ++LastId;
         source.CreatedAt = DateTime.Now;
-
-        File.WriteAllText(Path, JsonConvert.SerializeObject(GetAll().Append(source), Formatting.Indented));
+        
+        _serializationService.Serialize(Constants.WorkingFolder, Constants.AppSettingsFileNameWithoutExtension, GetAll().Append(source));
         SaveLastId();
 
         return source;
@@ -72,7 +79,6 @@ public abstract class GenericRepository<TSource> : IGenericRepository<TSource> w
 
     protected AppSettings ReadFromAppSettings()
     {
-        var json = File.ReadAllText(Constants.AppSettingsPath);
-        return JsonConvert.DeserializeObject<AppSettings>(json) ?? new AppSettings();
+        return _serializationService.Deserialize<AppSettings>(Constants.WorkingFolder, Constants.AppSettingsFileNameWithoutExtension);
     }
 }
